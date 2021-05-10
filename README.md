@@ -6,7 +6,7 @@ Catálogo de Pokemones. La Data es obtenida mediante API Rest.
 
 
 ## Versión en producción 😎
-[Click aquí](https://pokedex-1ygnb2hye-autvincere.vercel.app/) - Deploy en Vercel.
+[Click aquí](https://crud-tareas-redux.vercel.app/) - Deploy en Vercel.
 
 
 ## Comenzando 🚀
@@ -14,7 +14,7 @@ Catálogo de Pokemones. La Data es obtenida mediante API Rest.
 Estas instrucciones le permitirán obtener una copia del proyecto en funcionamiento en su máquina local para propósitos de desarrollo y pruebas.
 
 ```
-https://github.com/autvincere/pokedex.git
+https://github.com/autvincere/Crud-Tareas-Redux.git
 ```
 
 

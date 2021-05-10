@@ -140,13 +140,15 @@ const Tareas = () => {
           dispatch(removerTarea(id))
      }
      const handleEdit = (i) => {
-          console.log('Editar', i)
+          // console.log('Editar', i)
           dispatch(editarTarea(i))
           // console.log(tareaEdit)
           // const { name } = tareaEdit
           // console.log(name);
           setEditMode(true)
           setEditName(edit.name)
+          setError(false)
+          setHelperText()
      }
 
      const handleEditMode = (e) => {
