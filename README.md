@@ -1,8 +1,6 @@
 # Crud Tareas Redux
 
 Front para Mantenedor de Tareas.
-Catálogo de Pokemones. La Data es obtenida mediante API Rest.
-
 
 
 ## Versión en producción 😎
