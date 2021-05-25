@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Header from './Header'
 import Footer from './Footer'
-
+import TabsMenu from './TabsMenu'
 const useStyles = makeStyles((theme) => ({
      root: {
 
@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
                wrap="nowrap"
           >
                <Header />
+               <TabsMenu />
                {children}
                <Footer />
           </Grid>

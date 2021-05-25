@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {
      AppBar,
      Toolbar,
@@ -26,14 +27,16 @@ const Header = () => {
      const classes = useStyles();
 
      return (
-         <div className={classes.root}>
-               <AppBar position="static" color="primary">
-                    <Toolbar className={classes.titleCenter}>
-                         <Typography variant="h6">Mantenedor de Tareas</Typography>
-                         <SVGLogo className={classes.logo} />
-                    </Toolbar>
-               </AppBar>
-          </div>
+         
+               <header className={classes.root}>
+                    <AppBar position="static" color="primary">
+                         <Toolbar className={classes.titleCenter}>
+                              <Typography variant="h6">Mantenedor de Tareas</Typography>
+                              <SVGLogo className={classes.logo} />
+                         </Toolbar>
+                    </AppBar>
+
+               </header>
      )
 }
 
