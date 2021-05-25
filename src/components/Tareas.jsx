@@ -50,7 +50,7 @@ const useStyles = makeStyles((theme) => ({
           alignItems: 'center',
           justifyContent: 'space-between',
           padding: '12px 6px',
-          [theme.breakpoints.down('md')]: {
+          [theme.breakpoints.down('xs')]: {
                flexDirection: 'column',
           },
      },
@@ -81,7 +81,7 @@ const useStyles = makeStyles((theme) => ({
      },
      field: {
           width: '400px',
-          [theme.breakpoints.down('md')]: {
+          [theme.breakpoints.down('xs')]: {
                width: 'auto'
           },
      },
